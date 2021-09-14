@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+}
+
+.container {
+    margin: 10%;
+    padding: 2%;
+    box-shadow: 1px 1px 10px hsl(20, 20%, 69%);
+}
+
+.heading {
+    font-size: 22px;
+    text-align: center;
+    padding: 12px;
+    margin: 10px;
+}
+
+.d-inline {
+    display: inline;
+    background-color: hsl(20, 20%, 69%);
+    width: 40px;
+    height: 40px;
+}
+
+.d-inline-block {
+    display: inline-block;
+    background-color: hsl(20, 20%, 69%);
+    width: 40px;
+    height: 40px;
+}
+
+.d-block {
+    display: block;
+    background-color: hsl(20, 20%, 69%);
+    width: 40px;
+    height: 40px;
+}
+
+.desc {
+    margin: 3%;
+}
+
+span {
+    background-color: hsl(20, 20%, 69%);
+    width: 40px;
+    height: 40px;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* .static {
+    display: block;
+    position: static;
+}
+
+.relative {
+    display: block;
+    position:relative;
+}
+
+.fixed {
+    display: block;
+    position:fixed;
+}
+
+.absolute {
+    display: block;
+    position:absolute;
+}
+
+.sticky {
+    display: block;
+    position:sticky;
+} */
+
+.static, .relative, .fixed, .absolute, .sticky {
+    display: block;
+}
+
+.relativeExample {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+button {
+    position: fixed;
+    top: 300px;
+    left: -42px;
+    transform: rotateZ(90deg);
+}
+
+.absoluteParent {
+    position: relative;
+}
+
+.absoluteExample {
+    position: absolute;
+    border: 1px solid hotpink;
+    top: 20px;
+    left: 20px;
+}
+
+.stickyExample {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #FA8072;
+    color: white;
+}

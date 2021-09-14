@@ -1,0 +1,140 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+}
+
+@media(min-width:992px) {
+    .container {
+        margin: 10%;
+        padding: 2%;
+        box-shadow: 1px 1px 10px hsl(20, 20%, 69%);
+    }
+    .heading {
+        font-size: 22px;
+        text-align: center;
+        padding: 12px;
+        margin: 10px;
+    }
+    .cube {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        margin: 12px;
+        color: white;
+        text-align: center;
+    }
+    .teal {
+        background: linear-gradient(teal, black);
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        /* transition:all 1s ease-in-out; */
+    }
+    .teal:hover {
+        background: linear-gradient(red, black);
+        border-radius: 18%;
+    }
+    .purple {
+        /* background: linear-gradient(purple, black);
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+        /* 1, 2, 3.. or indefinite */
+        /* animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; */
+        /* animation-delay: 1s;
+    animation-play-state: running; */
+        animation: pulse 5s ease-in-out infinite;
+    }
+    @keyframes pulse {
+        0% {
+            border-radius: 0px;
+        }
+        50% {
+            border-radius: 50%;
+            background: linear-gradient(rgb(34, 80, 219), black);
+        }
+        50% {
+            border-radius: 20%;
+            background: linear-gradient(aqua, black);
+        }
+        100% {
+            border-radius: 50%;
+            background: linear-gradient(rgb(192, 69, 106), black);
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .container {
+        margin: 10%;
+        padding: 2%;
+        box-shadow: 1px 1px 10px hsl(20, 20%, 69%);
+    }
+    .heading {
+        font-size: 22px;
+        text-align: center;
+        padding: 12px;
+        margin: 10px;
+    }
+    .cube {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        margin: 12px;
+        color: white;
+        text-align: center;
+    }
+    .teal {
+        background: linear-gradient(teal, black);
+        transition-property: all;
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        /* transition:all 1s ease-in-out; */
+    }
+    .teal:hover {
+        background: linear-gradient(red, black);
+        border-radius: 18%;
+    }
+    .purple {
+        /* background: linear-gradient(purple, black);
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+        /* 1, 2, 3.. or indefinite */
+        /* animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; */
+        /* animation-delay: 1s;
+    animation-play-state: running; */
+        animation: pulse 5s ease-in infinite;
+    }
+    @keyframes pulse {
+        0% {
+            border-radius: 0px;
+            background-color: aqua;
+        }
+        50% {
+            border-radius: 50%;
+            background: linear-gradient(rgb(34, 80, 219), black);
+        }
+        50% {
+            border-radius: 20%;
+            background: linear-gradient(aqua, black);
+        }
+        100% {
+            border-radius: 50%;
+            background: linear-gradient(rgb(192, 69, 106), black);
+        }
+    }
+}
+
+@media (min-width:575px) and (max-width:767px) {}
+
+@media (min-width:460px) and (max-width:574px) {}
+
+@media (max-width:459px) {}

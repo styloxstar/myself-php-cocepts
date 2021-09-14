@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+}
+
+.container {
+    margin: 10%;
+    padding: 2%;
+    box-shadow: 1px 1px 10px hsl(20, 20%, 69%);
+}
+
+.heading {
+    font-size: 22px;
+    text-align: center;
+    padding: 12px;
+    margin: 10px;
+}
+
+.cube {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to top, black, aqua);
+}
+
+.translateX {
+    transform: translateX(20px);
+}
+
+.translateY {
+    transform: translateY(20px);
+}
+
+.translateXY {
+    transform: translate(20px, 20px);
+}
+
+.translateZ {
+    transform: translateZ( 20px);
+}
+
+.translate3d {
+    transform: translate3d(20px, 20px, 20px);
+}
+
+.rotateCube {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to top, black, rgb(165, 50, 183));
+}
+
+.rotateX {
+    transform: rotateX(120deg);
+}
+
+.rotateY {
+    transform: rotateY(120deg);
+}
+
+.rotateXY {
+    transform: rotate(45deg, 45deg);
+}
+
+.rotateZ {
+    transform: rotateZ(45deg);
+}
+
+.rotate3d {
+    transform: rotate3d(45deg, 45deg, 45deg, 45deg);
+}
+
+.scaleCube {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to top, black, rgb(246, 19, 19));
+}
+
+.scaleX {
+    transform: scaleX(1.2);
+}
+
+.scaleY {
+    transform: scaleY(1.2);
+}
+
+.scaleXY {
+    transform: scale(1.5, 1.2);
+}
+
+.scaleZ {
+    transform: scaleZ(1.4);
+}
+
+.scale3d {
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+
+.skewCube {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to top, black, rgb(46, 226, 166));
+    color:white;
+}
+
+.skewX {
+    transform: skewX(20deg);
+}
+
+.skewY {
+    transform: skewY(20deg);
+}
+
+.skewXY{
+    transform: skew(20deg,20deg);
+}

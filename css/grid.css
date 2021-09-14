@@ -1,0 +1,160 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+}
+
+.container {
+    margin: 10%;
+    padding: 2%;
+    box-shadow: 1px 1px 10px hsl(20, 20%, 69%);
+}
+
+.heading {
+    font-size: 22px;
+    text-align: center;
+    padding: 12px;
+    margin: 10px;
+}
+
+/* for horizontal/row flex */
+
+.cube {
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+}
+
+.teal {
+    background: linear-gradient(teal, black);
+}
+
+.red {
+    background: linear-gradient(red, black);
+}
+
+.green {
+    background: linear-gradient(rgb(33, 205, 96), black);
+}
+
+.black {
+    background: linear-gradient(rgb(135, 128, 128), black);
+}
+
+.purple {
+    background: linear-gradient(purple, black);
+}
+
+.pink {
+    background: linear-gradient(rgb(214, 53, 147), black);
+}
+
+.orange {
+    background: linear-gradient(rgb(245, 68, 33), black);
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content (horizontal): space-between/ space-around / flex-start / flex-end / center ; */
+    flex-wrap: wrap;
+    /* align-items - not work for horizontal direction */
+}
+
+/* for column/vertical flex */
+
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap/wrap-reverse; */
+    /* justify-content: does not work in vertical direction; */
+    /* align-items : strech(default) / flex-start / flex-end / center  */
+    align-items: center;
+    /* align-content (vertical - works for multiple row):  center / flex-start / flex-end / space-between / space-around */
+    align-content: center;
+}
+
+.cube1 {
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+}
+
+.teal1 {
+    background: linear-gradient(teal, black);
+}
+
+.red1 {
+    background: linear-gradient(red, black);
+}
+
+.green1 {
+    background: linear-gradient(rgb(33, 205, 96), black);
+}
+
+.black1 {
+    background: linear-gradient(rgb(135, 128, 128), black);
+}
+
+.purple1 {
+    background: linear-gradient(purple, black);
+}
+
+.pink1 {
+    background: linear-gradient(rgb(214, 53, 147), black);
+}
+
+.orange1 {
+    background: linear-gradient(rgb(245, 68, 33), black);
+}
+
+/* for grid */
+
+.cube2 {
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+}
+
+.teal2 {
+    background: linear-gradient(teal, black);
+}
+
+.red2 {
+    background: linear-gradient(red, black);
+}
+
+.green2 {
+    background: linear-gradient(rgb(33, 205, 96), black);
+}
+
+.black2 {
+    background: linear-gradient(rgb(135, 128, 128), black);
+}
+
+.purple2 {
+    background: linear-gradient(purple, black);
+}
+
+.pink2 {
+    background: linear-gradient(rgb(214, 53, 147), black);
+}
+
+.orange2 {
+    background: linear-gradient(rgb(245, 68, 33), black);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 12px;
+    /* row-gap:11px ; column-gap:12px; or both use, grid-gap: 16px; */
+    /* justify-content:space-between; */
+    /* align-content: center; */
+}

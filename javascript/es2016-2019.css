@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: scroll;
+}
+
+.container {
+    margin: 10%;
+    padding: 2%;
+    box-shadow: 1px 1px 10px hsl(20, 20%, 69%);
+}
+
+.heading {
+    font-size: 22px;
+    text-align: center;
+    padding: 12px;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+    font-family: monospace;
+}

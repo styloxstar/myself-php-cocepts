@@ -1,0 +1,80 @@
+html{
+height:100%;
+width:100%;
+margin:0;
+}
+
+
+
+body{
+/* background: url(mountain.jpeg);
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-origin: border-box; */
+
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('mountain.jpeg') center/cover no-repeat fixed;
+
+}
+
+.mControl{
+    border-radius: 12px !important;
+    padding:5px;
+    margin-top:20px;
+    width:95%;
+
+}
+
+.mControl:focus{
+    
+    outline: none;
+}
+
+textarea{
+    resize: none;
+}
+
+fieldset{
+
+    border-radius: 8px;
+    width:50%;
+    margin:auto;
+    box-shadow: 2px 5px 12px rgb(118, 116, 116) ;
+    /* margin-left:30%;
+    margin-right:30%; */
+}
+
+legend{
+    font-weight: bolder;
+}
+
+.interest{
+margin-left:2%;
+}
+
+.mSubmit{
+border-radius: 18px;
+padding:5px;
+width:20%;
+margin-top:15px;
+margin-left:35%;
+
+}
+
+
+iframe{
+    border-radius: 12px;
+}
+
+
+video{
+/* transform:skewY(-25deg); */
+margin-left:2%;
+border-radius:12px;
+}
+
+.pattern{
+    margin-left:12px !important;
+    padding:12px !important;
+}
