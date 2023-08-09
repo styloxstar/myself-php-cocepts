@@ -23,9 +23,11 @@
                     </p>
 
                     <script>
+                        
+                        
+                        mName = "deepak";
                         console.log(mName);
                         var mName;
-                        mName = "deepak";
                         console.log("in above code, as per javascript hoisting rule, socpe of mName will be executed, since there are nothing, it will defined as undefined, and then it will excecute rest of the code")
 
                         console.log("after ecmascript 2015, to avoid hoising, let/const is used instead of var and thus it will not set scope as undefined, it will instead throw an error that we havent defined varibale");
@@ -135,7 +137,7 @@
             <tr>
                 <th>synchronus vs asynchronus</th>
                 <td>
-                    when there multiple operations to perform synchronus programming waits for one tasks to finish, after completing the first, it will perform another operation, while asynchronus programming doesn't wait, it performs the operation, if task1 taking time, then it will not wait and perform another tasks
+                    when there multiple operations to perform synchronus programming waits for one tasks to finish, after completing the first, it will perform another operation, while asynchronus programming doesn't wait, it performs the others operation, if task1 taking time, then it will not wait and will perform another tasks
                 </td>
             </tr>
 

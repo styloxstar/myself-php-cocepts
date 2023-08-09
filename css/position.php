@@ -26,7 +26,7 @@
         <div class="relative">
             <div class="heading">Relative Position</div>
             <p>Relative Position is relative to parent tage, where we can adjust the position using top and left</p>
-            <p class="relativeExample">This is exaple of relative position</p>
+            <p class="relativeExample">This is example of relative position</p>
         </div>
 
         <hr>
@@ -59,8 +59,6 @@
         <div class="sticky">
             <div class="heading">Sticky Position</div>
             <p>Sticky position is the combination of relative and fixed and based on top and left property it, toggles between </p>
-
-
         </div>
 
 

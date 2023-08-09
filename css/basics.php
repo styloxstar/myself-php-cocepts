@@ -51,7 +51,7 @@
         <div>
             <div class="heading">Span</div>
             <p class="desc">
-                span works same as display inline, also does not suppors height and width property
+                span works same as display inline, also does not supports height and width property
             </p>
             <span>abcd</span>
             <span>pq</span>
@@ -73,20 +73,6 @@
         </div>
 
         <hr>
-        <div class="heading">Flex</div>
-        <p class="desc">
-            flex takes the available space and fills the elements ignoring whitespace as well
-        </p>
-
-        <div style="display:flex">
-            <div>abcd</div>
-            <div>pq</div>
-            <div>rs</div>
-            <div>tw</div>
-        </div>
-    </div>
-
-
     <div class="container">
         <div class="heading">Gradient</div>
 

@@ -82,30 +82,14 @@
                 <input type="submit" class="mSubmit" value="Save Data">
             </fieldset>
         </form>
-
-
     </div>
-
-
-
     <div style="display:flex;margin:20px;" id="videos">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/DEq_k0ccYLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
         <video src="Nature.mp4"  width="560" height="315" controls>
             <source src="Nature.mp4" type="video/mp4">
             <source src="Nature.ogg" type="video/ogg">
         </video>
-
-
     </div>
-
-
-
-
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>

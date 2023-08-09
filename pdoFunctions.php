@@ -12,7 +12,6 @@ function insertData($name,$email,$password,$mobile,$address,$gender){
     $query->bindValue(5, $address);
     $query->bindValue(6, $gender);
     $query->execute();
-
     if($query){
         $result = "<div class='alert alert-success text-center'>Data saved via PDO 😊👌</div>";
     }else{

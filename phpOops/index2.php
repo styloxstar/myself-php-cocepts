@@ -6,7 +6,7 @@ class Student {
     protected $name,$age;
 
 //public - the property or method can be accessed from everywhere. This is default
-// protected - the property or method can be accessed within the class and by classes derived from that class
+// protected - the property or method can be accessed within the class and by classes derived from that class(child classes)
 // private - the property or method can ONLY be accessed within the class
 
 function __construct($functional)

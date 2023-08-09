@@ -22,7 +22,7 @@ if (isset($_POST['apiSave'])) {
     $result=curl_exec($ch);
     curl_close($ch);
 
-    $result=json_decode($result,true); // to convert json decode as associative array instead of object, we need to pass secon argument as true, default json_decode() returns data as object
+    $result=json_decode($result,true); // to convert json decode as associative array instead of object, we need to pass second argument as true, default json_decode() returns data as object
 
 
 }

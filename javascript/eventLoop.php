@@ -44,7 +44,7 @@
 
             console.log("inside fun1() it will look for task, then executes first task i.e. console.log('fun1 is starting') , since console is also function it will have its own execution stack, after completuion of execution , it will go out of the stack, then it will check for other task i.e. calling fun2()");
 
-            console.log("fun2() will have its own execution stack, and inside it has timer based event thus, thus its own enevironment, until the timer is eceuted, it will traverse timer function task to WEB APIS to hold the operation until , time finished, then it will check if fun() has anything else task other than timer based event");
+            console.log("fun2() will have its own execution stack, and inside it has timer based event thus, thus its own enevironment, until the timer is executed, it will traverse timer function task to WEB APIS to hold the operation until , time finished, then it will check if fun() has anything else task other than timer based event");
 
 
             console.log("since, fun1() is in global execution task, then it will check for another task if any, after func2(), then executes that as well i.e. console.log('fun1 is eneding')")

@@ -53,7 +53,7 @@
                 console.log('slice methods')
                 let fruit = 'apple, banana, mango, orange';
 
-                console.log("the slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument, priginal array or string will not be chnaged")
+                console.log("the slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument, original array or string will not be chnaged")
 
 
                 console.log("==============================================================")

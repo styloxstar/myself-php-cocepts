@@ -222,12 +222,8 @@
 
 
                 let mapp = num.map((item)=>{
-                
                     return item*2;
-
                     // console.log(item*2);
-
-
                     console.log('when passed condition in map(), it prints the boolean value')
 
                     // return item%2==0;
@@ -236,9 +232,6 @@
 
                 console.log(mapp);
                 // mapp();
-
-
-
                 console.log('reduce function returns single value resulting of entire operation, it is mostly used to reduce teh array and getting the result out of it')
 
                 let reduce = num.reduce((acc,item)=>{
